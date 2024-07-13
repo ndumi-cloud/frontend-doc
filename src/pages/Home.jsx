@@ -38,7 +38,7 @@ const Home = () => {
               </p>
               <Link to='/healthtrack'>
                 <button className='btn mt-4 text-lg bg-primaryColor text-white font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-primaryColorDark transition-colors duration-300'>
-                  Health Track here
+                  Health Track here!!
                 </button>
               </Link>
             </div>
