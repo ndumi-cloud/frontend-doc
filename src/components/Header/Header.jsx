@@ -13,10 +13,17 @@ const navlinks = [
     path: '/services',
     display: 'Services',
   },
+<<<<<<< HEAD
   /* {
     path: '/contact',
     display: 'Contact',
   }, */
+=======
+  {
+    path: '/contact',
+    display: 'Contact',
+  },
+>>>>>>> ca3a8f47f07bbd8689dc635723c11f2e13153fe9
 ];
 
 const Header = () => {
