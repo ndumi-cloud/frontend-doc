@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AIImg from '../assets/images/AI.png';
 
 const ChatBubble = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,17 +10,14 @@ const ChatBubble = () => {
 
     return (
         <div className="fixed bottom-4 right-4 z-50">
+           
             {/* Bubble Button */}
-            <div className="bg-blue-500 text-white py-2 px-4 rounded-full shadow-md cursor-pointer transition-all duration-300"
+            <div className=" text-white py-2 px-4 rounded-full shadow-md cursor-pointer transition-all duration-300"
                  onClick={toggleChat}
                  style={{ transform: isOpen ? 'scale(0)' : 'scale(1)' }}
             >
-                <div className="flex items-center space-x-2">
-                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                              d="M17.293 6.293a1 1 0 0 1 1.414 1.414l-11 11a1 1 0 0 1-1.414 0l-11-11a1 1 0 1 1 1.414-1.414L12 15.086l5.293-5.293a1 1 0 0 1 1.414 0z"/>
-                    </svg>
-                    <span>HealthMate AI</span>
+                <div className="flex items-center space-x-2">                                   
+                    <span><img src={AIImg} alt="HealthMate AI"  /> </span>
                 </div>
             </div>
 
@@ -34,11 +32,7 @@ const ChatBubble = () => {
         style={{ border: 'none' }}
     ></iframe>
     <button className="absolute top-2 right-2 text-white-500 hover:text-white-700"
-            onClick={toggleChat}>
-        <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"/>
-        </svg>
+            onClick={toggleChat}>    
     </button>
 </div>
 
