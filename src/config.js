@@ -1,2 +1,2 @@
-export const BASE_URL = 'http://localhost:5000/api/v1'
+export const BASE_URL = 'https://backend-doc-1-t3zg.onrender.com/'
 export const token = localStorage.getItem('token')
