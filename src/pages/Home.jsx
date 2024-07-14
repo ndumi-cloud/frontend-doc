@@ -52,8 +52,8 @@ const Home = () => {
             </div>
             
             {/* Main Hero Image */}
-            <div className="flex justify-end lg:w-[600px] lg:ml-4">
-              <img src={heroImg01} alt="Hero Image" className="w-[200px] md:max-w-[500px] lg:max-w-none lg:w-[600px] h-auto lg:max-h-[calc(100%)] rounded-lg shadow-xl" />
+            <div className="flex justify-end lg:w-[400px] lg:ml-4">
+              <img src={heroImg01} alt="Hero Image" className="w-[200px] md:max-w-[300px] lg:max-w-none lg:w-[400px] lg:h-[500px] h-auto rounded-lg shadow-xl" /> {/* Adjusted height */}
             </div>
           </section>
           </div>
