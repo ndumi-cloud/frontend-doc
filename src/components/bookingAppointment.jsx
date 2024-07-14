@@ -94,7 +94,7 @@ const Booking = () => {
           />
         </div>
 
-        {/* <div className="mb-4">
+        <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="appointmentTime">
             Appointment Time
           </label>
@@ -107,7 +107,7 @@ const Booking = () => {
             onChange={handleChange}
             required
           />
-        </div> */}
+        </div>
 
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="ticketPrice">
