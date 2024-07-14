@@ -13,10 +13,6 @@ const navlinks = [
     path: '/services',
     display: 'Services',
   },
-  {
-    path: '/contact',
-    display: 'Contact',
-  },
 ];
 
 const Header = () => {
